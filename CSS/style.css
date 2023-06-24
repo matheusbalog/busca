@@ -1,0 +1,135 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&family=Roboto:wght@100;300;400&family=Ubuntu:wght@500&display=swap');
+.anav{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+.anav:hover{
+    color: red;
+    transition: .5s;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    float:none;
+    display:block; 
+    margin-left:auto; 
+    margin-right:auto;
+    margin-top: 20px;
+}
+header{
+    height: 80px;
+    background-color: black;
+    top: 0;
+    z-index: 99;  
+}
+.thead{
+    width: 100%;
+    height: 120px;
+}
+.publicidade1{
+    width: 970px;
+    height: 90px;
+    background-color: rgb(227, 227, 227);
+    float:none;
+    display:block; 
+    margin-left:auto; 
+    margin-right:auto;
+    margin-bottom: 30px;
+    border-radius: 8px 8px 8px 8px;
+}
+.publicidade2{
+    width: 300px; 
+    height:530px; 
+    margin-left: 60px; 
+    background-color: rgb(227, 227, 227);
+    border-radius: 8px 8px 8px 8px;
+}
+.publicidade3{
+    background-color: rgb(227, 227, 227);
+    width: 970px;
+    height: 250px;
+    border-radius: 8px 8px 8px 8px;
+}
+.header {
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+    top: 0;
+    z-index: 99;  
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
+footer{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    margin-top: 80px;
+    border-radius: 25px 25px 0px 0px;
+
+}
+.pb-4{
+    color:red;
+}
+footer h2{
+    color: white;
+    font-size: 15px;
+    margin-top: 35px;
+}
+.pptu{
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(123, 123, 123);
+}
+.pptu:hover{
+    color: red;
+    transition: .5s;
+}
+.topo{
+    background-image: url(../IMG/lamborghini.logo.png);
+    width: 1110px;
+    height: 200px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    border-radius: 8px;
+
+}
+.topo h1{
+    margin-left: 50px;
+    padding: 40px;
+    color: white;
+}
+.topo a{
+   text-decoration: none;
+   color: white;
+   border: 2px solid white;
+   border-radius: 30px;
+   padding: 8px;
+   margin-left: 90px;
+}
+.topo a:hover{
+    background-color: red;
+    border: 2px solid red;
+    transition: .4s;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
